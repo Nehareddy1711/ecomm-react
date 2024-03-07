@@ -13,12 +13,12 @@ export default function ShoppingCart() {
      return (
     <div id='cart'>
         <center><h1>Cafe Niloufer</h1></center>
+        <marquee><h1>Welcome to Cafe Niloufer</h1></marquee>
         <div className='main'>
             {products.map((value,index)=>(
                 <div class="container">
                     <div><img src={value.image} width={300} height={250}></img></div>
                     <div id="fname">{value.name}</div>
-                    <div>{value.description}</div>
                     <div>{value.price}</div>
                     <div><button>ADD</button></div>
                 </div> 
