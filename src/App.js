@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Cart from './Cart';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello neha reddy</h1>
-
-    </div>
+   <Cart />
   );
 }
+
 export default App;
